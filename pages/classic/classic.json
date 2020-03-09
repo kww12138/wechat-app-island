@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "k-like":"/components/like/index",
+    "k-movie": "/components/classic/movie/index",
+    "k-music": "/components/classic/music/index",
+    "k-essay": "/components/classic/essay/index",
+    "k-epsoide":"/components/epsoide/index",
+    "k-navi":"/components/navi/index",
+    "k-button":"/components/image-button/index"
+  }
+}

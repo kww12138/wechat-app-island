@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "k-tag":"/components/tag/index",
+    "k-like": "/components/like/index"
+  }
+}

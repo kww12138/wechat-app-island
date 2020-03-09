@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "k-book":"/components/book/index",
+    "k-search":"/components/search/index"
+  }
+}

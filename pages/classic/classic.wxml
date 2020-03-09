@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="header">
+    <k-epsoide class="epsoide" index="{{classic.index}}"/>
+    <view class="like-container">
+      <k-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{likeCount}}" />
+      <k-button class="share-btn" open-type="share">
+        <image class="share" slot="img" src="/images/icon/share.png" />
+      </k-button>
+    </view>
+  </view>
+  <k-movie hidden="{{classic.type!=100}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <k-music wx:if="{{classic.type==200}}" img="{{classic.image}}" content="{{classic.content}}" 
+  src="{{classic.url}}" title="{{classic.title}}"/>
+  <k-essay hidden="{{classic.type!=300}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <k-navi bind:left="onNext" bind:right="onPrevious" title="{{classic.title}}" first="{{first}}" 
+  latest="{{latest}}" class="navi"/>
+</view>
